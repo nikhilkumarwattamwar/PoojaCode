@@ -1,6 +1,6 @@
 package typesData;
 
-public class Static {
+public class StaticBlock {
 	
 	    static {
 	        System.out.println("Static block runs once");
