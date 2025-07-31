@@ -1,5 +1,8 @@
 package random;
-
+/**
+*IIB-block of code inside a class but outside any method or constructor, 
+*and it runs every time an object is created, before the constructor.
+*/
 public class InstanceBlock {
 
 	    {
@@ -14,5 +17,4 @@ public class InstanceBlock {
 	    	InstanceBlock d = new InstanceBlock();
 	    }
 	}
-
 

@@ -2,45 +2,43 @@ package oopsConcept;
 
 import typesData.ModifiersAnotherPackage;
 
-public class Modifiers { 
-	
-	public  void GreetPublic() {
-	 System.out.println("Public Hello from ClassA!");
-	        }
-	
-	private void Greetpvt() {
-        System.out.println("Private Hello from ClassA!");
-       
-    }
-	protected void GreetPro() {
-        System.out.println("Protected Hello from ClassA!");
+public class Modifiers {
+
+	public void greetPublic() {
+		System.out.println("Public Hello from ClassA!");
 	}
-	 
-	void GreetD() {
-        System.out.println("Default Hello from ClassA!");
-	}	
-	public static void main(String[]args) {
-		 Modifiers A = new Modifiers();
-		 A.GreetD();
-		 A.GreetPublic();
-		 A.Greetpvt();
-		 A.GreetPro();
-		 
-		 ModifiersAnother B = new ModifiersAnother();
-		 B.GreetD();
-		 B.GreetPublic();
-		// B.Greetpvt();
-		 B.GreetPro();
-		 
-		 ModifiersAnotherPackage C = new ModifiersAnotherPackage();
-		 //C.GreetD();
-		 C.GreetPublic();
-		 //C.Greetpvt();
-		 //C.GreetPro();
-		 
+
+	private void greetpvt() {
+		System.out.println("Private Hello from ClassA!");
+
+	}
+
+	protected void greetPro() {
+		System.out.println("Protected Hello from ClassA!");
+	}
+
+	void greetD() {
+		System.out.println("Default Hello from ClassA!");
+	}
+
+	public static void main(String[] args) {
+		Modifiers a = new Modifiers();
+		a.greetD();
+		a.greetPublic();
+		a.greetpvt();
+		a.greetPro();
+
+		ModifiersAnother b = new ModifiersAnother();
+		b.greetD();
+		b.greetPublic();
+		// b.greetpvt();
+		b.greetPro();
+
+		ModifiersAnotherPackage c = new ModifiersAnotherPackage();
+		// c.greetD();
+		c.greetPublic();
+		// c.greetpvt();
+		// c.greetPro();
 
 	}
 }
-
-
-

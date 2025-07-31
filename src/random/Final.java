@@ -1,6 +1,6 @@
 package random;
 
-public class Final {
+final public class Final {
 	
 	
 
@@ -13,10 +13,11 @@ public class Final {
 	}
 
 	class Dog //extends Animal {  //cannot be inherited
-	    // void sound() {}        // ❌ Error: cannot override final method
 		
-		//MAX_USERS = 200;        // ❌ Error: cannot assign a value to final variable
+		//MAX_USERS = 200;        // cannot assign a value to final variable
 	{}
 
+}	    // void sound() {}        // cannot override final method
 
-}
+//public class Final{                 //outer class can not be overridden
+	
