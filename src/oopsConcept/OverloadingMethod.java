@@ -6,7 +6,7 @@ Improves code readability and reusability.
  */
 
 public class OverloadingMethod {
-	void print(int i) {
+	 void print(int i) {
 		System.out.println("number="+i);
 	}
 	void print (String text) {

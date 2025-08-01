@@ -12,7 +12,7 @@ class Animall {
 	}
 }
 class Catt extends Animall{
-	//@Override
+	@Override
 	void sound() {
 		System.out.println("mew");
 	}
