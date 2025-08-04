@@ -1,7 +1,7 @@
 package stringOps;
 
 /*
- *  which means that once a string object is created, its content cannot be changed.
+ * Immutable  which means that once a string object is created, its content cannot be changed.
  *  If we try to change a string, Java does not modify it creates a new string object instead.
  */
 public class StringConcat {
@@ -22,8 +22,8 @@ public class StringConcat {
      System.out.println(i==h);
      System.out.println(j==i);
      System.out.println(k==i);
-     System.out.println(m);
-     System.out.println(n);
+		System.out.println(m);
+		System.out.println(n);
 	}
 
 }

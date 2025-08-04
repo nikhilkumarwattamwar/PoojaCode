@@ -12,8 +12,8 @@ public class StringBufferPractice {
 		StringBuilder q = new StringBuilder("Hello");
 		p.append(q);
 		System.out.println(p);
-      	String s = p.toString();
-      	String r="WorldHello";
+      	String s = p.toString(); //heap
+      	String r="WorldHello"; //Stringpool
       	System.out.println(s);
       	
       	System.out.println(s==r);
